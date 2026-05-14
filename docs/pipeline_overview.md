@@ -62,9 +62,9 @@ $$ \Psi(\mathbf{x}, \mathbf{p}_i) = \exp\left(-\gamma \left\| \mathbf{x} - \math
 - **Gaussian Damping**: Limits the influence of distant data points.
 - **Harmonic Resonance**: Measures the frequency match between the signal and the class prototype.
 
-### Stage 5: The Council of 14 (Ensemble Optimization)
-The **G.O.D. Optimizer** (General Omni Dimensional Optimizer) manages a council of 14 (or 26 in the full Titan version) diverse algorithmic units.
-1. **Evolutionary Tuning**: The "Soul" units (resonance kernels) undergo a brief evolutionary phase where parameters like frequency ($\omega$) and damping ($\gamma$) are mutated to find the optimal physical laws for the specific dataset.
+### Stage 5: The Council of 26 (Ensemble Optimization)
+The **G.O.D. Optimizer** (General Omni Dimensional Optimizer) manages a council of 26 (or 14 in legacy versions) diverse algorithmic units.
+1. **Evolutionary Tuning**: The "Soul" units (resonance kernels) undergo a brief evolutionary phase where parameters like frequency ($\omega_c$) and damping ($\gamma$) are mutated to find the optimal physical laws for the specific dataset.
 2. **Weight Optimization**: The system uses a constrained optimization (SLSQP) to assign weights to each unit based on their performance on a validation subset. This ensures that the most reliable "experts" have the most influence on the final result.
 
 ### Stage 6: Final Prediction
